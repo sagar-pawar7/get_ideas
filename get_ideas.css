@@ -1,0 +1,128 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    background-image: linear-gradient(to right, #a816da, #4d0665);)
+}
+header {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 100px;
+}
+header div img {
+    height: 275px;
+    object-fit: cover;
+    width: 200px;
+    border-radius: 40px;
+} 
+header div p {
+    text-align: center;
+    margin-top: -60px;
+    font-size: 30px;
+    color: #fff;
+    font-family: sans-serif;
+}
+#msg {
+    margin-top: 50px;
+}
+#msg .head {
+    text-align: center;
+    margin-top: 70px;
+    margin-bottom: 60px;
+}
+#msg .head h1 {
+    font-size: 45px;
+    font-family: cursive;
+    background-image: linear-gradient(to left, #ff4e50, #f9d423); 
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+#msg div {
+    margin-bottom: 30px;
+    display: flex;
+}
+#msg div div {
+    background-color: #f9f9f9;
+    margin-left: 100px;
+    margin-right: 20px;
+    width: 430px;
+    font-family: sans-serif;
+    padding: 10px 82px 15px 100px;
+    border-radius: 30px;
+    flex-direction: column;
+}
+#msg div img {
+    height: 122px;
+    width: 140px;
+    border-radius: 50%;
+    object-fit: cover;
+    position: absolute;
+    top: 89.5%;
+    left: 36px;
+}
+#msg div:nth-child(odd) {
+    margin-right: 93px;
+    text-align: end;
+    justify-content: flex-end;
+}
+#msg div:nth-child(odd) div {
+    padding-right: 110px;
+    padding-left: 40px;
+}
+#msg div:nth-of-type(2) img {
+    position: absolute;
+    top: 117.5%;
+    left: 84%;
+}
+#msg div:nth-of-type(3) img {
+    position: absolute;
+    top: 145.5%;
+}
+#msg div:nth-of-type(4) img {
+    position: absolute;
+    top: 173.5%;
+    left: 84%;
+}
+#msg div:nth-of-type(5) img {
+    position: absolute;
+    top: 201.5%;
+}
+#msg div:nth-of-type(6) img {
+    position: absolute;
+    top: 230%;
+    left: 84%;
+}
+#msg div:nth-of-type(7) img {
+    position: absolute;
+    top: 258%;
+}
+#msg div:nth-of-type(8) img {
+    position: absolute;
+    top: 286.5%;
+    left: 84%;
+}
+#msg div:nth-of-type(9) img {
+    position: absolute;
+    top: 118rem;
+}
+#msg div:nth-of-type(10) img {
+    position: absolute;
+    top: 128.5rem;
+    left: 84%;
+    object-fit: fill;   
+}
+#msg div:nth-of-type(11) img {
+    position: absolute;
+    top: 139rem;
+}
+#msg div:nth-of-type(12) img {
+    position: absolute;
+    top: 149.5rem;
+    left: 84%;
+}
+#msg div:nth-of-type(13) img {
+    position: absolute;
+    top: 160.5rem;
+}
+
