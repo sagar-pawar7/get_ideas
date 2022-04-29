@@ -26,103 +26,53 @@ header div p {
 #msg {
     margin-top: 50px;
 }
-#msg .head {
+.head {
     text-align: center;
     margin-top: 70px;
     margin-bottom: 60px;
 }
-#msg .head h1 {
+.head h1 {
     font-size: 45px;
     font-family: cursive;
     background-image: linear-gradient(to left, #ff4e50, #f9d423); 
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
 }
-#msg div {
-    margin-bottom: 30px;
+/* practice */
+.chat {
     display: flex;
-}
-#msg div div {
+    position: relative;
     background-color: #f9f9f9;
-    margin-left: 100px;
-    margin-right: 20px;
-    width: 430px;
-    font-family: sans-serif;
-    padding: 10px 82px 15px 100px;
     border-radius: 30px;
-    flex-direction: column;
+    margin-left: 40px;
+    margin-right: 620px;
+    margin-bottom: 30px;
 }
-#msg div img {
-    height: 122px;
-    width: 140px;
-    border-radius: 50%;
+.chat div img {
     object-fit: cover;
+    height: 106px;
+    width: 110px;
+    border-radius: 50%;
+}
+.chat div:nth-of-type(1) {
     position: absolute;
-    top: 89.5%;
-    left: 36px;
+    top: -4px;
+    left: -12px;
 }
-#msg div:nth-child(odd) {
-    margin-right: 93px;
-    text-align: end;
-    justify-content: flex-end;
+.chat div:nth-of-type(2) {
+    padding: 5px 50px 10px 5px; 
+    margin-left: 110px;
 }
-#msg div:nth-child(odd) div {
-    padding-right: 110px;
-    padding-left: 40px;
+#msg .chat:nth-child(even) {
+    margin-left: 580px;
+    margin-right: 90px;
+    text-align: right;
 }
-#msg div:nth-of-type(2) img {
+#msg .chat:nth-child(even) div:nth-of-type(1) img {
     position: absolute;
-    top: 117.5%;
-    left: 84%;
+    left: 535px;
 }
-#msg div:nth-of-type(3) img {
-    position: absolute;
-    top: 145.5%;
+.chat:nth-of-type(even) div:nth-of-type(2) {
+    padding: 5px 86px 10px 60px;
+    margin-left: 0px;
 }
-#msg div:nth-of-type(4) img {
-    position: absolute;
-    top: 173.5%;
-    left: 84%;
-}
-#msg div:nth-of-type(5) img {
-    position: absolute;
-    top: 201.5%;
-}
-#msg div:nth-of-type(6) img {
-    position: absolute;
-    top: 230%;
-    left: 84%;
-}
-#msg div:nth-of-type(7) img {
-    position: absolute;
-    top: 258%;
-}
-#msg div:nth-of-type(8) img {
-    position: absolute;
-    top: 286.5%;
-    left: 84%;
-}
-#msg div:nth-of-type(9) img {
-    position: absolute;
-    top: 118rem;
-}
-#msg div:nth-of-type(10) img {
-    position: absolute;
-    top: 128.5rem;
-    left: 84%;
-    object-fit: fill;   
-}
-#msg div:nth-of-type(11) img {
-    position: absolute;
-    top: 139rem;
-}
-#msg div:nth-of-type(12) img {
-    position: absolute;
-    top: 149.5rem;
-    left: 84%;
-}
-#msg div:nth-of-type(13) img {
-    position: absolute;
-    top: 160.5rem;
-}
-
