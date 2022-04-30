@@ -39,40 +39,69 @@ header div p {
     -webkit-background-clip: text;
 }
 /* practice */
-.chat {
+#chat {
+    margin: 30px 45px 30px 45px;
     display: flex;
-    position: relative;
-    background-color: #f9f9f9;
-    border-radius: 30px;
-    margin-left: 40px;
-    margin-right: 620px;
-    margin-bottom: 30px;
+    flex-direction: column;
 }
-.chat div img {
-    object-fit: cover;
-    height: 106px;
+#chat .first {
+    display: flex;
+    margin-bottom: 30px;
+    position: relative;
+}
+.first .img img {
+    height: 115px;
     width: 110px;
     border-radius: 50%;
-}
-.chat div:nth-of-type(1) {
     position: absolute;
-    top: -4px;
-    left: -12px;
+    top: -6px;
+    object-fit: cover;
+    margin-left: 2px;
 }
-.chat div:nth-of-type(2) {
-    padding: 5px 50px 10px 5px; 
-    margin-left: 110px;
+.first .text {
+    background-color: #f9f9f9;
+    border-radius: 30px;
+    font-family: cursive;
+    text-align: left;
+    height: 105px;
+    width: 525px;
+    margin-left: 55px;
 }
-#msg .chat:nth-child(even) {
-    margin-left: 580px;
-    margin-right: 90px;
+.first .text h1 {
+    margin-right: 50px;
+    margin-left: 65px;
+}
+.first .text p {
+    margin-right: 50px;
+    margin-left: 65px;
+}
+.second {
+    flex-direction: row-reverse;
+}
+.second .img img {
+    height: 120px;
+    width: 115px;
+    border-radius: 50%;
+    position: absolute;
+    top: -8px;
+    right: -5px;
+    object-fit: cover;
+}
+.second .text {
+    background-color: #f9f9f9;
+    border-radius: 30px;
+    font-family: cursive;
     text-align: right;
+    height: 105px;
+    width: 525px;
+    margin-right: 55px;
 }
-#msg .chat:nth-child(even) div:nth-of-type(1) img {
-    position: absolute;
-    left: 535px;
+.second .text h1 {
+    margin-left: 50px;
+    margin-right: 65px;
 }
-.chat:nth-of-type(even) div:nth-of-type(2) {
-    padding: 5px 86px 10px 60px;
-    margin-left: 0px;
+.second .text p {
+    margin-left: 50px;
+    margin-right: 65px;
 }
+
